@@ -1,2 +1,28 @@
 
 /* Your CSS Code here. */
+ #holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#holder > div {
+  padding: 10px;
+  margin: 10px;
+}
+
+#item-1 {
+  order: 2;
+  background-color: #FF0000;
+}
+
+#item-2 {
+  order: 3;
+  background-color: #0000FF;	
+}
+
+#item-3 {
+  order: 1;
+  background-color: #008001;
+}
