@@ -1,13 +1,13 @@
 
 /* Your CSS Code here. */
- #holder {
+ .holder {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
 
-#holder > div {
+.holder > div {
   padding: 10px;
   margin: 10px;
 }
